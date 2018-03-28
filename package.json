@@ -17,8 +17,7 @@
     "pack:clean": "cross-env BUILD_TARGET=clean node .electron-vue/build.js",
     "pack:web": "cross-env BUILD_TARGET=web node .electron-vue/build.js",
     "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter src",
-    "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src",
-    "postinstall": "npm run lint:fix"
+    "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src"
   },
   "dependencies": {
     "axios": "^0.16.1",
