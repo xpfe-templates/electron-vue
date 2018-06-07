@@ -9,7 +9,7 @@
 const path = require('path')
 const builder = require('electron-builder')
 const Platform = builder.Platform
-const env = process.env.NODE_ENV
+const env = process.env.PACK_ENV
 
 function resolve(dir) {
   return path.resolve(__dirname, dir)
